@@ -1,0 +1,72 @@
+func testIf(testing int) int {
+    let x : int = 1;
+    let y : int = 2;
+
+    if y > x {
+       //  printf("y:%i > x:%f\n", y, x);
+        if x == 1.0 {
+           //  printf("x is 1.0: v: %g\n", x);
+           return 1;
+        }
+        return 2;
+    } 
+    else if(y > 2) {
+        return 3;
+    } else {
+        // printf("y:%i < x:%f\n", y, x);
+        return 4;
+    }
+
+    return 0;
+}
+
+func main() int {
+    let result : int = testIf(1);
+    
+    // Regular for i loop
+    //for i in 0..10 {
+    //}
+    //// Same as other, but no `i in`
+    //for 0..10 {}
+    //// While loop
+    //for {}
+    //// Custom step
+    //for i in 0..10 step 2 {}
+    
+    printf("result: %i\n", result);
+    
+    return result;
+}
+
+
+//object FirstTestObject {
+//    uses ExampleTrait;
+//
+//    a int = 1;
+//    b int = 2;
+//} -> {
+//
+//    SecondTestObject() {}
+//
+//    doSomething() int {
+//        return 10;
+//    }
+//}
+//
+//
+//object SecondTestObject {
+//    uses {
+//        ExampleTrait,
+//    };
+//
+//    a int = 1;
+//    b int = 2;
+//} -> {
+//
+//    SecondTestObject() {}
+//
+//    doSomething() int {
+//        return 10;
+//    }
+//}
+//

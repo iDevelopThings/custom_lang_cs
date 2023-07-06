@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Sam8t\.nuget\packages\llvmsharp.interop\16.0.0\lib\net7.0\LLVMSharp.Interop.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Sam8t\.nuget\packages\llvmsharp\16.0.0\lib\net7.0\LLVMSharp.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Sam8t\.nuget\packages\antlr4.runtime.standard\4.13.0\lib\netstandard2.0\Antlr4.Runtime.Standard.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:Boolean x:Key="/Default/Environment/Hierarchy/Build/SolBuilderDuo/RunBuildOnSolutionLoaded/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/Hierarchy/Build/SolBuilderDuo/UseMsbuildSolutionBuilder/@EntryValue">No</s:String></wpf:ResourceDictionary>
