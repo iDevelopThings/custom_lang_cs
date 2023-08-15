@@ -1,0 +1,3 @@
+
+antlr4.bat -Dlanguage=CSharp -visitor -package CustomLanguage.Grammar -o . CustomLangLexer.g4 CustomLangParser.g4
+
